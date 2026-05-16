@@ -28,21 +28,27 @@ body{
   
 }
   
-.container{
-    display:flex;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:20px;
-    padding:20px;
-    align-items:start;
-}
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
   
+}
+ 
+ 
 .box-gelap{
-  width:90%;
-  max-width:500px;
-  text-align:center;
-  background:rgba(0,0,0,0.5);
-  padding:30px;
-  border-radius:25px;
+    width: 90%;
+    max-width: 600px;
+
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+
+    padding: 30px;
+    border-radius: 25px;
+
+    text-align: center;
   
   margin:auto;
   margin-top:80px;
