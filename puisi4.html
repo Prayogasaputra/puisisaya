@@ -25,8 +25,17 @@ body{
   justify-content:center;
   align-items:center;
   padding:20px;
+  
 }
-
+  
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
+    align-items:start;
+}
+  
 .box-gelap{
   max-width:700px;
   text-align:center;
@@ -92,9 +101,9 @@ a{
 </head>
 
 <body>
-
+  
+<div class="container">
 <div class="overlay">
-
 <div class="box-gelap">
 
 <h1>Hujan di Jendela</h1>
@@ -125,9 +134,7 @@ masih tetap terang.<br><br>
 
 </div>
   
-</body>
-</html>
-<div class="overlay">
+<div class="container">
 <div class="box-gelap">
 
 <h2>Waktu yang Membentukku</h2>
@@ -173,9 +180,7 @@ Aamiin.
 
 </div>
   
-</body>
-</html>
-<div class="overlay">
+<div class="container">
 <div class="box-gelap">
   
 <h3>Waktu yang Berputar</h3>
